@@ -1,0 +1,39 @@
+* {
+    margin: 10px;
+    padding: 0;
+    width: 500px;
+    height: 100pt
+    box-sizing:border-box;
+  }
+  body {
+    margin: 50;
+    padding: 20;
+    display: flex;
+    align-items: center;
+    max-width:max-content;
+  
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+      background-color: white;
+      border-radius: 10px;
+      width: 200pc;
+      ;
+      
+      padding: 20px;
+      box-shadow: 0px 15px rgba(0, 0, 0 0.2);
+      text-align-last: auto;
+  }
+  .box{
+      background-color: rgb(255, 0, 149);
+      color: black;
+      padding: 15px;
+      border-radius:  4px;
+      text-align: center;
+      font-weight:100;   
+  }
+  .content {
+    color: black;
+    font: size 50pc;
+  }

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c7bedb;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    background-color: white;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .badge {
+    background-color: #f5e050;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.9em;
+  }
+  
+  .watch-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .series {
+    font-size: 0.9em;
+    color: #999;
+    font-weight: normal;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
